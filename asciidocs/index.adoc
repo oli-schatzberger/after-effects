@@ -110,6 +110,7 @@ Create an adjustment layer and name it *VHS Shake*
 * Hold alt/option while pressing on postition to create a expression field
 * type in *wiggle(a, b)* and choose a value that fits best for you
 
+more soon...
 
 
 
