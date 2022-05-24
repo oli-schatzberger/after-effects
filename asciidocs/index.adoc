@@ -19,6 +19,9 @@ ifdef::backend-html5[]
 ==== Assets
 https://assets.rocketstock.com/uploads/2019/04/AE-VHS-Assets.zip[Download]
 
+You can skip these first steps by simply draggin the *VHS Effect* from the asset folder on the clip.
+If this is the case skip to 1.1.5
+
 ==== Step 1: Add lumetri color
 
 Basic Settings:
@@ -86,6 +89,26 @@ Effect Settings:
 
 ==== Add 4x3 Aspect Ratio layer from assets
 
+Drag the *4x3 Aspect Ratio.png* image above all layers.
+
+
+==== Add grain video from assets
+
+Drag the *VHS Grain.mp4* video underneath the aspect-ratio layer.
+And set the blending mode to *OVERLAY*.
+
+==== Add a static noise layer
+
+Drag the *Static Video Accent.mp4* video underneath the grain layer.
+Set the blending mode to *SCREEN*.
+
+==== Add a shake effect
+
+Create an adjustment layer and name it *VHS Shake*
+
+* Add the efffect *Effects>Distort>Transform* to the layer
+* Hold alt/option while pressing on postition to create a expression field
+* type in *wiggle(a, b)* and choose a value that fits best for you
 
 
 
