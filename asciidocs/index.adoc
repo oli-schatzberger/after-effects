@@ -14,7 +14,81 @@ ifdef::backend-html5[]
 // print the toc here (not at the default position)
 //toc::[]
 
-== Technical Details
+== Techniques
+=== How to create a VHS-effect?
+==== Assets
+https://assets.rocketstock.com/uploads/2019/04/AE-VHS-Assets.zip[Download]
+
+==== Step 1: Add lumetri color
+
+Basic Settings:
+
+* White: -50
+
+Creative:
+
+* Faded Film: +30
+* Sharpen: -70
+* Vibrance: -30
+* Shadow Tint: drag it slightly pink
+
+
+Curves:
+
+white:
+
+image::white-curves.png[400, White]
+
+
+green:
+
+image::green-curves.png[400, Green]
+
+blue:
+
+image::blue-curves.png[400, Red]
+
+
+
+Vignette:
+
+* Amount: -1
+
+==== Add Channel Blurs
+You have to add multiple blurs to the same layer. To create an old look.
+But everything is explained step by step.
+
+Go to *Effects>Blur&Sharpen>Channel Blur*
+
+Effect Settings 1:
+
+* Red Blurriness: +22
+* Edge Behavior: true
+* Blur Dimensions: vertical
+
+Drag another *Channel Blur* to the layer:
+
+Effect Settings 2:
+
+* Red Blurriness: +14
+* Blue Blurriness: +30
+* Edge Behavior: true
+* Blur Dimensions: horizontal
+
+==== Add Unsharp Mask to create a more blurred look
+
+Go to *Effects>Blur&Sharpen>Unsharp Mask*
+
+Effect Settings:
+
+* Amount: +100
+* Radius: +12
+
+==== Add 4x3 Aspect Ratio layer from assets
+
+
+
+
 
 == Single Effects
 
